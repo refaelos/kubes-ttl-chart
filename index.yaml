@@ -3,17 +3,32 @@ entries:
   kubes-ttl:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-01-31T19:30:43.747601+02:00"
+    created: "2021-02-01T21:55:40.466318+02:00"
     dependencies:
     - name: redis
       repository: '@bitnami'
       version: 12.5.1
     description: kubes-ttl is the ttl service responsible to handle environments based
       on ttl
-    digest: 36f48f4369230ed5cf133c14b300c7d76e07cf9ebfb38556be87a0c655b9ee13
+    digest: 339bd216b4e05c7b539315731d3a4e13f2c58dd945c6ce7a43132f5c977858b9
+    name: kubes-ttl
+    type: application
+    urls:
+    - http://kubes.io/kubes-ttl-chart/kubes-ttl-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-02-01T21:55:40.459806+02:00"
+    dependencies:
+    - name: redis
+      repository: '@bitnami'
+      version: 12.5.1
+    description: kubes-ttl is the ttl service responsible to handle environments based
+      on ttl
+    digest: 8cc91db7bdf10142920fcfc59eadaec1d92286ba1da0a8eac33dc474b3a5411c
     name: kubes-ttl
     type: application
     urls:
     - http://kubes.io/kubes-ttl-chart/kubes-ttl-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-31T19:30:43.741868+02:00"
+generated: "2021-02-01T21:55:40.44384+02:00"
